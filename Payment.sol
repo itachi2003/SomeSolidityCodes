@@ -17,5 +17,5 @@ contract gadiModiMoney {
     function widthdrawSomewehere(address payable _whereTo) public {
         _whereTo.transfer(this.getMeBalance());
     }
-//lll
+
 }
